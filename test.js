@@ -100,3 +100,14 @@ document.addEventListener("DOMContentLoaded",()=>{
     });
 
 });
+//  supprimer toutes les taches
+clearBtn.addEventListener("click",()=>{
+// methode 1: 
+// taskTitle.innerHTML = "";
+// methode 2:
+ while(taskTitle.firstChild){
+     taskTitle.removeChild(taskTitle.firstChild);
+ }
+//  supprimer toutes les taches dans local storage
+ localStorage.clear(); 
+});
