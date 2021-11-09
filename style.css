@@ -1,0 +1,14 @@
+#task{
+    margin-bottom: 0;
+    border-bottom: red;
+}
+[value="Add Task"]{
+    margin:10px 0 0 10px
+}
+small{
+    color: red;
+    visibility:hidden;
+}
+.warning{
+    visibility:  visible;
+}
